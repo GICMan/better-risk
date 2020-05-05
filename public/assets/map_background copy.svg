@@ -1,0 +1,400 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 527 391">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #8515ff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-11, .cls-2, .cls-20, .cls-47 {
+        font-size: 12px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-20 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-21 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-22 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-25 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-26 {
+        letter-spacing: 0em;
+      }
+
+      .cls-27 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-28 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-29 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-30 {
+        letter-spacing: 0em;
+      }
+
+      .cls-31 {
+        letter-spacing: 0em;
+      }
+
+      .cls-32 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-33 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-34 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-35 {
+        letter-spacing: 0em;
+      }
+
+      .cls-36 {
+        letter-spacing: -0.07em;
+      }
+
+      .cls-37 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-38 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-39 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-40, .cls-47 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-41 {
+        letter-spacing: 0em;
+      }
+
+      .cls-42 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-43 {
+        letter-spacing: 0em;
+      }
+
+      .cls-44 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-45 {
+        letter-spacing: 0.03em;
+      }
+
+      .cls-46 {
+        letter-spacing: -0.03em;
+      }
+    </style>
+  </defs>
+  <title>map_background copy</title>
+  <g>
+    <g>
+      <polygon class="cls-1" points="28 250 31 267 38 277 38 295 30 306 31 318 54 328 74 324 91 314 100 311 77 284 53 261 28 250"/>
+      <text class="cls-2" transform="translate(46 302)"><tspan class="cls-3">P</tspan><tspan x="6" y="0">e</tspan><tspan class="cls-4" x="12" y="0">r</tspan><tspan class="cls-5" x="16" y="0">th</tspan></text>
+      <circle class="cls-1" cx="58" cy="297" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="28 250 16 222 3 199 7 189 18 192 7 179 13 167 12 151 18 145 30 162 51 180 76 203 100 224 85 240 86 263 81 289 53 261 28 250"/>
+      <text class="cls-2" transform="translate(35 241)"><tspan class="cls-6">G</tspan><tspan x="8" y="0">e</tspan><tspan class="cls-7" x="14" y="0">r</tspan><tspan class="cls-8" x="18" y="0">ald</tspan><tspan class="cls-9" x="33" y="0">t</tspan><tspan x="37" y="0">on</tspan></text>
+      <circle class="cls-1" cx="46" cy="217" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="18 145 41 135 51 127 69 127 88 119 106 111 110 142 110 177 110 208 100 224 76 203 51 180 30 162 18 145"/>
+      <text class="cls-2" transform="translate(44 151)"><tspan class="cls-10">F</tspan><tspan class="cls-8" x="6" y="0">it</tspan><tspan class="cls-4" x="12" y="0">z</tspan><tspan x="18" y="0">ville</tspan></text>
+      <circle class="cls-1" cx="78" cy="159" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="86 263 114 259 140 257 178 257 194 257 194 281 174 289 158 291 140 298 132 312 100 311 81 289 86 263"/>
+      <text class="cls-11" transform="translate(114 278)"><tspan class="cls-12">W</tspan><tspan x="10" y="0">i</tspan><tspan class="cls-13" x="13" y="0">n</tspan><tspan x="19" y="0">th</tspan><tspan class="cls-14" x="30" y="0">r</tspan><tspan x="34" y="0">op</tspan></text>
+      <circle class="cls-1" cx="132" cy="278" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="110 208 128 212 167 210 178 212 194 212 194 257 140 257 86 263 85 240 100 224 110 208"/>
+      <text class="cls-11" transform="translate(132 236)"><tspan class="cls-15">W</tspan><tspan class="cls-5" x="10" y="0">a</tspan><tspan class="cls-16" x="16" y="0">r</tspan><tspan class="cls-5" x="20" y="0">bu</tspan><tspan class="cls-4" x="33" y="0">r</tspan><tspan class="cls-17" x="37" y="0">t</tspan><tspan x="41" y="0">on</tspan></text>
+      <circle class="cls-1" cx="144" cy="232" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="106 111 114 100 114 86 124 76 132 86 132 73 141 73 140 63 154 52 174 44 180 53 192 56 194 212 178 212 167 210 128 212 110 208 110 177 110 142 106 111"/>
+      <text class="cls-11" transform="translate(133 145)"><tspan class="cls-16">D</tspan><tspan class="cls-5" x="8" y="0">e</tspan><tspan class="cls-16" x="14" y="0">r</tspan><tspan class="cls-18" x="18" y="0">b</tspan><tspan x="25" y="0">y</tspan></text>
+      <circle class="cls-1" cx="154" cy="145" r="12"/>
+    </g>
+  </g>
+  <polygon class="cls-1" points="192 56 180 53 174 44 154 52 140 63 141 73 132 73 132 86 124 76 114 86 114 100 106 111 88 119 69 127 51 127 41 135 18 145 12 151 13 167 7 179 18 192 7 189 3 199 16 222 28 250 31 267 38 277 38 295 30 306 31 318 54 328 74 324 91 314 100 311 132 312 140 298 158 291 174 289 194 281 194 257 194 212 192 56"/>
+  <g>
+    <g>
+      <path class="cls-1" d="M0,0Z" transform="translate(-159 -90)"/>
+      <text class="cls-11" transform="translate(237 39)">Da<tspan class="cls-19" x="14" y="0">r</tspan><tspan x="18" y="0">win</tspan></text>
+      <circle class="cls-1" cx="243" cy="44" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="192 130 224 130 224 94 222 71 211 60 192 56 192 130"/>
+      <text class="cls-20" transform="translate(201 98)">T<tspan class="cls-5" x="5" y="0">anami</tspan></text>
+      <circle class="cls-1" cx="210" cy="98" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="235 83 263 88 289 93 305 93 305 130 224 130 224 94 222 71 235 83"/>
+      <text class="cls-11" transform="translate(258 104)">Dally</text>
+      <circle class="cls-1" cx="264" cy="110" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="280 51 284 62 297 69 305 71 305 93 289 93 235 83 263 66 280 51"/>
+      <text class="cls-11" transform="translate(273 67)"><tspan class="cls-16">B</tspan><tspan x="7" y="0">o</tspan><tspan class="cls-14" x="13" y="0">r</tspan><tspan x="17" y="0">oloola</tspan></text>
+      <circle class="cls-1" cx="280" cy="76" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="201 130 216 145 242 163 252 170 252 192 194 192 192 130 201 130"/>
+      <text class="cls-11" transform="translate(218 166)"><tspan class="cls-21">F</tspan><tspan x="5" y="0">o</tspan><tspan class="cls-4" x="12" y="0">r</tspan><tspan x="16" y="0">t </tspan><tspan class="cls-22" x="23" y="0">K</tspan><tspan class="cls-13" x="29" y="0">a</tspan><tspan class="cls-17" x="35" y="0">t</tspan><tspan class="cls-5" x="39" y="0">e</tspan></text>
+      <circle class="cls-1" cx="220" cy="170" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="252 170 276 169 305 166 305 130 224 130 201 130 216 145 252 170"/>
+      <text class="cls-11" transform="translate(258 143)">Elliott</text>
+      <circle class="cls-1" cx="264" cy="150" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="252 192 252 170 305 166 305 192 252 192"/>
+      <text class="cls-11" transform="translate(270 188)"><tspan class="cls-23">S</tspan><tspan x="6" y="0">and</tspan><tspan class="cls-18" x="25" y="0">o</tspan><tspan class="cls-24" x="32" y="0">v</tspan><tspan x="37" y="0">er</tspan></text>
+      <circle class="cls-1" cx="278" cy="179" r="12"/>
+    </g>
+  </g>
+  <path class="cls-1" d="M0,0Z" transform="translate(-159 -90)"/>
+  <g>
+    <g>
+      <polygon class="cls-1" points="194 192 252 192 253 232 194 232 194 212 194 192"/>
+      <text class="cls-11" transform="translate(208 208)"><tspan class="cls-25">M</tspan><tspan class="cls-5" x="10" y="0">a</tspan><tspan class="cls-16" x="16" y="0">r</tspan><tspan x="19" y="0">ia</tspan></text>
+      <circle class="cls-1" cx="225" cy="210" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="252 192 305 192 337 192 337 232 253 232 252 192"/>
+      <text class="cls-11" transform="translate(291 196)">oodn<tspan class="cls-26" x="27" y="0">a</tspan><tspan x="32" y="0">tta</tspan></text>
+      <circle class="cls-1" cx="296" cy="212" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="194 281 205 278 218 278 227 275 241 281 256 286 256 257 253 236 253 232 194 232 194 281"/>
+      <text class="cls-11" transform="translate(220 245)"><tspan class="cls-27">C</tspan><tspan x="7" y="0">oo</tspan><tspan class="cls-7" x="20" y="0">r</tspan><tspan class="cls-8" x="24" y="0">abie</tspan></text>
+      <circle class="cls-1" cx="225" cy="255" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="253 232 305 232 308 256 308 275 308 294 284 287 274 285 256 286 256 257 253 232"/>
+      <text class="cls-11" transform="translate(272 247)"><tspan class="cls-27">C</tspan><tspan x="7" y="0">oober</tspan></text>
+      <circle class="cls-1" cx="284" cy="261" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="256 286 267 304 273 312 275 323 280 324 289 312 308 294 274 285 256 286"/>
+      <text class="cls-11" transform="translate(278 290)">Lin<tspan class="cls-9" x="15" y="0">c</tspan><tspan x="20" y="0">oln</tspan></text>
+      <circle class="cls-1" cx="280" cy="298" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="305 232 337 232 337 370 327 361 326 347 317 334 302 340 291 341 288 331 300 318 304 304 308 294 308 256 305 232"/>
+      <text class="cls-11" transform="translate(323 246)"><tspan class="cls-28">A</tspan><tspan x="7" y="0">delaide</tspan></text>
+      <circle class="cls-1" cx="323" cy="286" r="12"/>
+    </g>
+  </g>
+  <path class="cls-1" d="M0,0H0" transform="translate(-159 -90)"/>
+  <g>
+    <g>
+      <path class="cls-1" d="M0,0Z" transform="translate(-159 -90)"/>
+      <text class="cls-11" transform="translate(320 101)"><tspan class="cls-29">C</tspan><tspan x="7" y="0">a</tspan><tspan class="cls-30" x="13" y="0">r</tspan><tspan class="cls-8" x="17" y="0">pe</tspan><tspan class="cls-26" x="29" y="0">n</tspan><tspan x="36" y="0">ta</tspan><tspan class="cls-16" x="46" y="0">r</tspan><tspan class="cls-31" x="50" y="0">ia</tspan></text>
+      <circle class="cls-1" cx="332" cy="133" r="12"/>
+    </g>
+    <g>
+      <path class="cls-1" d="M500,0h0Z" transform="translate(-159 -90)"/>
+      <text class="cls-11" transform="translate(368 53)"><tspan class="cls-29">C</tspan><tspan x="7" y="0">ai</tspan><tspan class="cls-16" x="15" y="0">r</tspan><tspan x="19" y="0">ns</tspan></text>
+      <circle class="cls-1" cx="370" cy="63" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="376 93 404 92 407 104 415 110 426 119 437 127 437 134 419 145 404 155 388 167 372 162 358 153 366 123 376 93"/>
+      <text class="cls-11" transform="translate(385 113)"><tspan class="cls-32">M</tspan><tspan x="10" y="0">ac</tspan><tspan class="cls-33" x="21" y="0">k</tspan><tspan class="cls-34" x="27" y="0">a</tspan><tspan x="32" y="0">y</tspan></text>
+      <circle class="cls-1" cx="394" cy="126" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="337 192 337 232 404 232 409 205 412 179 388 167 372 162 358 153 346 185 337 192"/>
+      <text class="cls-11" transform="translate(367 183)"><tspan class="cls-35">Q</tspan><tspan x="8" y="0">uilpie</tspan></text>
+      <circle class="cls-1" cx="373" cy="200" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="412 179 431 196 448 217 464 231 448 227 435 234 404 232 409 205 412 179"/>
+      <text class="cls-11" transform="translate(417 223)"><tspan class="cls-36">T</tspan><tspan x="5" y="0">o</tspan><tspan class="cls-29" x="12" y="0">o</tspan><tspan class="cls-24" x="18" y="0">w</tspan><tspan x="27" y="0">oomba</tspan></text>
+      <circle class="cls-1" cx="426" cy="212" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="388 167 419 145 437 134 444 140 450 147 459 153 462 166 473 174 475 179 468 200 464 231 448 217 431 196 412 179 388 167"/>
+      <text class="cls-11" transform="translate(423 153)"><tspan class="cls-16">R</tspan><tspan x="7" y="0">oc</tspan><tspan class="cls-37" x="18" y="0">k</tspan><tspan x="24" y="0">hamp</tspan><tspan class="cls-38" x="54" y="0">t</tspan><tspan x="57" y="0">on</tspan></text>
+      <circle class="cls-1" cx="443" cy="176" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="475 179 483 188 488 182 491 185 488 212 494 227 475 229 464 231 468 200 475 179"/>
+      <text class="cls-11" transform="translate(482 176)">B<tspan class="cls-16" x="7" y="0">r</tspan><tspan class="cls-31" x="10" y="0">isbane</tspan></text>
+      <circle class="cls-1" cx="480" cy="206" r="12"/>
+    </g>
+  </g>
+  <path class="cls-1" d="M0,0H0" transform="translate(-159 -90)"/>
+  <g>
+    <g>
+      <polygon class="cls-1" points="370 232 370 273 365 317 353 313 337 308 337 232 370 232"/>
+      <text class="cls-11" transform="translate(317 259)">B<tspan class="cls-24" x="7" y="0">r</tspan><tspan x="10" y="0">oken </tspan><tspan class="cls-39" x="38" y="0">H</tspan><tspan x="46" y="0">ill</tspan></text>
+      <circle class="cls-1" cx="353" cy="271" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="435 234 435 255 434 278 391 277 370 278 370 273 370 232 435 234"/>
+      <text class="cls-11" transform="translate(379 243)"><tspan class="cls-29">C</tspan><tspan x="7" y="0">arsons</tspan><tspan class="cls-9" x="39" y="0">t</tspan><tspan class="cls-29" x="43" y="0">o</tspan><tspan x="50" y="0">wn</tspan></text>
+      <circle class="cls-1" cx="399" cy="255" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="464 231 494 227 490 249 484 277 461 277 434 278 435 255 435 234 448 227 464 231"/>
+      <text class="cls-11" transform="translate(471 261)"><tspan class="cls-40">T</tspan><tspan class="cls-41" x="5" y="0">ams</tspan><tspan class="cls-24" x="26" y="0">w</tspan><tspan x="34" y="0">o</tspan><tspan class="cls-4" x="41" y="0">r</tspan><tspan x="45" y="0">th</tspan></text>
+      <circle class="cls-1" cx="461" cy="253" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="370 278 385 304 399 319 411 338 398 336 388 341 365 317 370 278"/>
+      <text class="cls-11" transform="translate(376 302)"><tspan class="cls-42">M</tspan><tspan x="10" y="0">ildu</tspan><tspan class="cls-7" x="29" y="0">r</tspan><tspan x="33" y="0">a</tspan></text>
+      <circle class="cls-1" cx="383" cy="317" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="464 314 441 321 421 327 411 338 399 319 385 304 370 278 391 277 434 278 484 277 471 296 464 314"/>
+      <text class="cls-11" transform="translate(428 289)"><tspan class="cls-43">D</tspan><tspan x="8" y="0">ubbo</tspan></text>
+      <circle class="cls-1" cx="426" cy="301" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="411 338 423 341 434 354 451 361 455 338 464 314 421 327 411 338"/>
+      <text class="cls-11" transform="translate(448 324)"><tspan class="cls-44">A</tspan><tspan class="cls-45" x="7" y="0">C</tspan><tspan x="14" y="0">T</tspan></text>
+      <circle class="cls-1" cx="443" cy="337" r="12"/>
+    </g>
+  </g>
+  <polyline class="cls-1" points="363 317 386 342 396 336 410 338 422 342 432 355 449 361 453 338 462 314 469 296 482 277 488 249 492 227 463 231 446 228 434 234 368 232 335 232 335 308 351 313 363 317"/>
+  <g>
+    <g>
+      <polygon class="cls-1" points="337 345 350 344 365 335 372 327 365 317 337 308 337 345"/>
+      <text class="cls-11" transform="translate(349 319)"><tspan class="cls-39">N</tspan><tspan x="8" y="0">hill</tspan></text>
+      <circle class="cls-1" cx="351" cy="326" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="337 345 350 344 358 339 379 379 370 382 357 377 337 370 337 345"/>
+      <text class="cls-11" transform="translate(330 351)"><tspan class="cls-46">F</tspan><tspan x="5" y="0">o</tspan><tspan class="cls-4" x="12" y="0">r</tspan><tspan class="cls-31" x="16" y="0">t </tspan><tspan class="cls-16" x="23" y="0">B</tspan><tspan x="29" y="0">ool</tspan></text>
+      <circle class="cls-1" cx="355" cy="361" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="398 336 400 346 395 356 385 364 374 370 358 339 365 335 372 327 388 341 398 336"/>
+      <text class="cls-11" transform="translate(377 336)"><tspan class="cls-16">B</tspan><tspan x="7" y="0">endigo</tspan></text>
+      <circle class="cls-1" cx="379" cy="349" r="12"/>
+    </g>
+    <g>
+      <polygon class="cls-1" points="420 340 416 359 395 356 400 346 398 336 411 338 420 340"/>
+      <text class="cls-11" transform="translate(408 342)">E</text>
+      <circle class="cls-1" cx="409" cy="347" r="12"/>
+    </g>
+    <g>
+      <path class="cls-1" d="M0,0Z" transform="translate(-159 -90)"/>
+      <text class="cls-47" transform="translate(426 350)">T<tspan class="cls-41" x="5" y="0">amboon</tspan></text>
+    </g>
+    <g>
+      <polygon class="cls-1" points="379 379 386 373 405 388 417 377 422 370 416 359 395 356 374 370 379 379"/>
+      <text class="cls-11" transform="translate(397 366)"><tspan class="cls-32">M</tspan><tspan x="10" y="0">elbou</tspan><tspan class="cls-16" x="39" y="0">r</tspan><tspan class="cls-41" x="43" y="0">ne</tspan></text>
+      <circle class="cls-1" cx="403" cy="370" r="12"/>
+    </g>
+  </g>
+  <path class="cls-1" d="M0,0H0" transform="translate(-159 -90)"/>
+</svg>

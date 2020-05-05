@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Gabriel",
+    "color": 140,
+    "status": "OFFLINE"
+  },
+  {
+    "id": 1,
+    "name": "Conor",
+    "color": 247,
+    "status": "OFFLINE"
+  },
+  {
+    "id": 2,
+    "name": "Ian",
+    "color": 100,
+    "status": "OFFLINE"
+  },
+  {
+    "id": 3,
+    "name": "Edo",
+    "color": 13,
+    "status": "OFFLINE"
+  },
+  {
+    "id": 4,
+    "name": "Kav",
+    "color": 40,
+    "status": "OFFLINE"
+  },
+  {
+    "id": 5,
+    "name": "William",
+    "color": 185,
+    "status": "OFFLINE"
+  }
+]
