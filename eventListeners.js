@@ -66,7 +66,6 @@ module.exports = function (io, socket) {
     var newState = startGame(gameState, maps, cardDeck);
     map = newState.map;
     cardDeck = newState.cardDeck;
-    console.log(cardDeck);
     io.emit("initMap", map);
     updateState(startTurn(newState.gameState, map));
   });
@@ -90,7 +89,6 @@ module.exports = function (io, socket) {
         card = cardDeck[cardIndex];
         cardDeck.splice(cardIndex, 1);
         socket.emit("newCard", card);
-        console.log(cardDeck);
       }
       updateState(newState);
     }

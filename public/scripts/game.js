@@ -44,6 +44,8 @@ let showCont = false;
 let mapScale;
 let toMapScale;
 let zoomSpeed;
+let zoomCenterX = null;
+let zoomCenterY = null;
 
 let mapXPos;
 let mapYPos;
@@ -71,6 +73,15 @@ function setup() {
   toMapYPos = -height / 2;
 
   addButtons();
+
+  var options = {
+    preventDefault: true,
+  };
+  var hammer = new Hammer(document.body, options);
+
+  hammer.get("pinch").set({ enable: true });
+
+  hammer.on("pinch", mobileZoom);
 }
 
 //Socket.IO Events Emitting
@@ -166,5 +177,10 @@ function mouseDragged() {
 
 function mouseWheel(event) {
   toMapScale += zoomSpeed * event.delta;
+  toMapScale = constrain(toMapScale, 1, 3);
+}
+
+function mobileZoom(event) {
+  toMapScale = event.scale;
   toMapScale = constrain(toMapScale, 1, 3);
 }

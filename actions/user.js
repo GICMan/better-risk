@@ -40,6 +40,11 @@ module.exports = function (
     }
   } else {
     if (user.status == "PLAYING") {
+      socket.emit("userSelected", {
+        gameState,
+        maps,
+        user,
+      });
       socket.emit("initMap", map);
     }
   }

@@ -85,6 +85,8 @@ function Territory(mapTerritory) {
 
   this.drawShape = function () {
     colorMode(HSB, 360);
+    strokeJoin(ROUND);
+    strokeCap(ROUND);
     if (this.owner == "none") return;
     if (this.hovered) {
       fill(this.owner.color, 100, 360);

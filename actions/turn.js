@@ -25,7 +25,6 @@ module.exports = function (gameState, map) {
           foundTerr++;
         }
       });
-      console.log(foundTerr);
     });
     if (foundTerr == cont.territories.length) {
       player.conBonus += cont.bonus;
