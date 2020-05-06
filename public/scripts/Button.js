@@ -1,6 +1,7 @@
-function Button(x, y, width, height, img, clicked) {
-  this.x = x;
-  this.y = y;
+function Button(updatePosition, width, height, img, clicked) {
+  this.updatePosition = updatePosition;
+  this.x = 0;
+  this.y = 0;
   this.width = width;
   this.height = height;
   this.img = img;
@@ -11,6 +12,10 @@ function Button(x, y, width, height, img, clicked) {
   this.pMouseIsPressed = true;
 
   this.update = function () {
+    var pos = this.updatePosition();
+    this.x = pos.x;
+    this.y = pos.y;
+
     if (
       mouseX > this.x - this.width / 2 &&
       mouseX < this.x + this.width / 2 &&

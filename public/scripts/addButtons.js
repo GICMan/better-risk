@@ -1,7 +1,8 @@
 function addButtons() {
   buttons.showCont = new Button(
-    width / 2 - 400,
-    height - 80,
+    () => {
+      return { x: width / 2 - 400, y: height - 80 };
+    },
     60,
     60,
     leftArrow,
@@ -11,8 +12,9 @@ function addButtons() {
   );
 
   buttons.showCards = new Button(
-    width / 2 + 400,
-    height - 80,
+    () => {
+      return { x: width / 2 + 400, y: height - 80 };
+    },
     60,
     60,
     rightArrow,
@@ -22,8 +24,9 @@ function addButtons() {
   );
 
   buttons.submitCards = new Button(
-    width / 4,
-    height / 2,
+    () => {
+      return { x: width / 4, y: height / 2 };
+    },
     60,
     60,
     check,
@@ -63,8 +66,9 @@ function addButtons() {
   );
 
   buttons.decrease = new Button(
-    width / 2 - 100,
-    height - 80,
+    () => {
+      return { x: width / 2 - 100, y: height - 80 };
+    },
     60,
     60,
     leftArrow,
@@ -74,8 +78,9 @@ function addButtons() {
   );
 
   buttons.increase = new Button(
-    width / 2 + 100,
-    height - 80,
+    () => {
+      return { x: width / 2 + 100, y: height - 80 };
+    },
     60,
     60,
     rightArrow,
@@ -85,8 +90,9 @@ function addButtons() {
   );
 
   buttons.confirm = new Button(
-    width / 2 + 200,
-    height - 80,
+    () => {
+      return { x: width / 2 + 200, y: height - 80 };
+    },
     60,
     60,
     check,
@@ -106,8 +112,9 @@ function addButtons() {
   );
 
   buttons.cancel = new Button(
-    width / 2 - 200,
-    height - 80,
+    () => {
+      return { x: width / 2 - 200, y: height - 80 };
+    },
     60,
     60,
     cancel,
@@ -117,8 +124,9 @@ function addButtons() {
   );
 
   buttons.nextPhase = new Button(
-    width / 2 + 250,
-    height - 80,
+    () => {
+      return { x: width / 2 + 250, y: height - 80 };
+    },
     60,
     60,
     rightArrow,
