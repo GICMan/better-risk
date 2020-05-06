@@ -57,6 +57,8 @@ function drawUI() {
       if (gameState.selectionType == "FROM") {
         currentPhaseUI();
         buttons.nextPhase.update();
+      } else if (gameState.selectionType == "TO") {
+        buttons.cancel.update();
       } else if (gameState.selectionType == "AMOUNT") {
         selectAmountUI(
           1,
