@@ -39,18 +39,20 @@ function drawMap() {
       text(cont.bonus, cont.labelPos[0], cont.labelPos[1] + 18);
     });
   } else {
-    map.routes.forEach((route) => {
-      noFill();
-      stroke(0, 0, 0, 200);
-      strokeWeight(5);
-      beginShape();
-      curveVertex(route[0][0], route[0][1]);
-      route.forEach((point) => {
-        curveVertex(point[0], point[1]);
+    if (map.routes) {
+      map.routes.forEach((route) => {
+        noFill();
+        stroke(0, 0, 0, 200);
+        strokeWeight(5);
+        beginShape();
+        curveVertex(route[0][0], route[0][1]);
+        route.forEach((point) => {
+          curveVertex(point[0], point[1]);
+        });
+        curveVertex(route[route.length - 1][0], route[route.length - 1][1]);
+        endShape();
       });
-      curveVertex(route[route.length - 1][0], route[route.length - 1][1]);
-      endShape();
-    });
+    }
 
     territories.forEach((territory) => {
       territory.runLogic();
