@@ -1,9 +1,4 @@
 module.exports = function (gameState, map) {
-  gameState.turnIndex++;
-  if (gameState.turnIndex > gameState.activePlayers.length - 1) {
-    gameState.turnIndex = 0;
-  }
-
   player = gameState.activePlayers[gameState.turnIndex];
   gameState.phase = "DRAFT";
   gameState.selectionType = "FROM";
@@ -36,6 +31,11 @@ module.exports = function (gameState, map) {
   } else {
     gameState.draftAmount =
       Math.floor(territories.length / 3) + player.conBonus;
+  }
+
+  gameState.turnIndex++;
+  if (gameState.turnIndex > gameState.activePlayers.length - 1) {
+    gameState.turnIndex = 0;
   }
 
   return gameState;
