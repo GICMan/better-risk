@@ -157,6 +157,7 @@ function pickSettings() {
 
   if (gameState.activePlayers != null) {
     gameState.activePlayers.forEach((user) => {
+      colorMode(HSB);
       fill(user.color, 100, 100);
       stroke("none");
       rect(windowWidth / 2, 50 * userIndex + 100, windowWidth / 3, 35, 4);
