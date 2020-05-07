@@ -37,6 +37,7 @@ var clients = [];
 var maps = [];
 var map = {};
 var cardDeck = [];
+var playerCards = [];
 var users = require("./users.json");
 
 module.exports = function (io, socket) {
@@ -52,11 +53,13 @@ module.exports = function (io, socket) {
       clients,
       map,
       maps,
-      socket
+      socket,
+      playerCards
     );
     if (newState) {
       clients = newState.clients;
       users = newState.users;
+      playerCards = newState.playerCards;
       updateState(newState.gameState);
     }
   });
@@ -88,6 +91,16 @@ module.exports = function (io, socket) {
         cardIndex = utils.randomRange(0, cardDeck.length - 1);
         card = cardDeck[cardIndex];
         cardDeck.splice(cardIndex, 1);
+
+        var playerIndex = playerCards.findIndex(
+          (player) => player.id === gameState.player.id
+        );
+
+        if (playerIndex > -1) {
+          playerCards[playerIndex].cards.push(card);
+        }
+        console.log(playerCards);
+
         socket.emit("newCard", card);
       }
       updateState(newState);
@@ -111,6 +124,7 @@ module.exports = function (io, socket) {
       cardDeck
     );
     cardDeck = newState.cardDeck;
+    playerCards = newState.playerCards;
     updateState(newState.gameState);
   });
 
@@ -125,8 +139,12 @@ module.exports = function (io, socket) {
 
   socket.on("attackType", (type) => {
     newState = attackActions.attackType(type, gameState);
+    newState = miscActions.checkPlayerDead(gameState, playerCards, socket);
 
-    updateState(miscActions.checkWin(newState));
+    playerCards = newState.playerCards;
+    console.log(playerCards);
+
+    newState = updateState(miscActions.checkWin(newState.gameState));
   });
 
   socket.on("attackManuever", (amount) => {

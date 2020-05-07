@@ -5,7 +5,8 @@ module.exports = function (
   clients,
   map,
   maps,
-  socket
+  socket,
+  playerCards
 ) {
   //check if it is in the users list
   let userIndex = users.findIndex((user) => {
@@ -27,6 +28,7 @@ module.exports = function (
       gameState.activePlayers.push(user);
 
       clients.push({ clientId: socket.id, userId: user.id });
+      playerCards.push({ id: user.id, cards: [] });
 
       socket.emit("userSelected", {
         gameState,
@@ -34,7 +36,7 @@ module.exports = function (
         user,
       });
 
-      return { gameState, users, clients };
+      return { gameState, users, clients, playerCards };
     } else {
       console.log("user is already playing");
     }
@@ -46,6 +48,14 @@ module.exports = function (
         user,
       });
       socket.emit("initMap", map);
+      cardElement = playerCards.find(
+        (cardElement) => cardElement.id == user.id
+      );
+      if (cardElement) {
+        cardElement.cards.forEach((card) => {
+          socket.emit("newCard", card);
+        });
+      }
     }
   }
 };

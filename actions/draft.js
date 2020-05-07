@@ -23,12 +23,18 @@ module.exports.draftCards = function (
   selectedCards,
   comboType,
   gameState,
-  cardDeck
+  cardDeck,
+  playerCards
 ) {
   gameState.draftAmount += comboType;
+  var playerIndex = playerCards.findIndex(
+    (player) => player.id === gameState.player.id
+  );
   selectedCards.forEach((card) => {
     cardDeck.push(card);
+    var cardIndex = playerCards[playerIndex].cards.findIndex(card);
+    playerCards[playerIndex].cards.splice(cardIndex, 1);
   });
 
-  return { gameState, cardDeck };
+  return { gameState, cardDeck, playerCards };
 };

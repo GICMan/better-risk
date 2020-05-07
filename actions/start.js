@@ -29,12 +29,33 @@ module.exports = function (gameState, maps, cardDeck) {
 
   let openTerritories = gameState.mapState.slice();
 
+  for (var i = 0; i < 39; i++) {
+    pickTerritory(gameState.activePlayers[0], openTerritories);
+  }
+
   while (openTerritories.length > 0) {
     gameState.activePlayers.forEach((player) => {
       if (openTerritories.length <= 0) return;
       pickTerritory(player, openTerritories);
     });
   }
+
+  console.log(Math.floor((-10 * gameState.activePlayers.length) / 3 + 40));
+
+  // for (
+  //   var i = 0;
+  //   i < Math.floor((-10 * gameState.activePlayers.length) / 3 + 40);
+  //   i++
+  // ) {
+  //   gameState.activePlayers.forEach((player) => {
+  //     var ownedTerritories = gameState.mapState.filter(
+  //       (terr) => terr.owner == player
+  //     );
+  //     var territoryId =
+  //       ownedTerritories[utils.randomRange(0, ownedTerritories.length - 1)].id;
+  //     gameState.mapState[territoryId].troops++;
+  //   });
+  // }
 
   gameState.activePlayers = utils.shuffle(gameState.activePlayers);
 

@@ -31,3 +31,33 @@ module.exports.checkWin = function (gameState) {
   }
   return gameState;
 };
+
+module.exports.checkPlayerDead = function (gameState, playerCards, socket) {
+  var deadPlayers = [];
+  gameState.activePlayers.forEach((player, index) => {
+    var ownedTerritories = gameState.mapState.filter(
+      (terr) => terr.owner == player
+    );
+
+    if (ownedTerritories.length == 0) {
+      deadPlayers.push(player);
+
+      let deadPlayerIndex = playerCards.findIndex(
+        (playerCard) => playerCard.id === player.id
+      );
+
+      let activePlayerIndex = playerCards.findIndex(
+        (playerCard) => playerCard.id === gameState.player.id
+      );
+
+      playerCards[deadPlayerIndex].cards.forEach((card) => {
+        socket.emit("addCard", card);
+        console.log("card add: " + card);
+        playerCards[activePlayerIndex].cards.push(card);
+      });
+
+      gameState.activePlayers.splice(index, 1);
+    }
+  });
+  return { gameState, deadPlayers, playerCards };
+};
